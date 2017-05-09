@@ -12,10 +12,18 @@ body, html {
 }
 
 #logo {
-    
     animation: mymove 9999999s infinite;
-    
 }
+
+#logo a img {
+    width: 70px;
+    height: 70px;
+}
+
+#home h2 {
+    color: red;
+}
+
 
 /* Standard syntax */
 @keyframes mymove {
@@ -35,7 +43,7 @@ header {
     top: 0;
     left: 0;
     padding: 10px 30px 10px 10px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     display: flex;
     justify-content: space-between;
     background-color: black;
@@ -70,7 +78,7 @@ nav li a:hover {
 
 .parallax {
     /* The image used */
-    background-image: url('../img/swastika.jpg');
+    background-image: url('../img/metallica-background.jpg');
 
     height: 40%;
     width: 100%;
@@ -116,7 +124,7 @@ p {
     padding: 0;
 }
 
-#resume {
+#home {
     text-align: center;
     font-size: 30px;
     background-color: black;
